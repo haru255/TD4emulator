@@ -64,7 +64,8 @@ const opcode = [add_a, mov_ab, in_a, mov_a,
 
 function reset() {
     register.reset();
-    this.output = 0;
+    io.set_output(0);
+    rendering();
 }
 //pcが指す番地のデータを受け取る
 function fetch() {
