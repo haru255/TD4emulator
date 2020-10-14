@@ -1,0 +1,19 @@
+.bit4 {
+    width: 30px;
+}
+.bit8 {
+    width: 60px;
+    display: block;
+}
+.input {
+    display: flex;
+}
+.output {
+    display: flex;
+}
+.reg {
+    display: flex;
+}
+.line {
+    display: flex;
+}
